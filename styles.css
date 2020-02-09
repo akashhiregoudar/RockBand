@@ -71,7 +71,7 @@ body{
         background: url("drum.png") no-repeat;
         background-size: 100%;
         background-position-x: 50%;
-        background-position-y: -39%;
+        background-position-y: -45%;
     }
     
 
@@ -85,7 +85,7 @@ body{
 
     .btn1 {
         left: 13%;
-        top: 28%;
+        top: 2rem;
         padding: 5%;
     }
 
