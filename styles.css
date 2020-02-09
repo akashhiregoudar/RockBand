@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background: url("drum.png") no-repeat;
+    background-size:60%;
+    background-position-x: 50%;
+    background-position-y: -10%;
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    padding: 4.5%;
+    border-radius: 100%
+}
+
+.btn1 {
+    left: 26%;
+    top: 25%;
+    padding: 5%;
+}
+.btn2 {
+    left: 24.5%;
+    top: 58%;
+}
+.btn3 {
+    left: 35%;
+    top: 63%;
+}
+.btn4 {
+    left: 38%;
+    top: 43%;
+    padding: 3%;
+}
+.btn5 {
+    left: 47%;
+    top: 72%;
+    border-radius: 0;
+    padding: 0.7%;
+}
+.btn6 {
+    left: 52%;
+    top: 63%;
+}
+.btn7 {
+    left: 62%;
+    top: 49%;
+    padding: 5%;
+}
+.btn8 {
+    left: 53%;
+    top: 26%;
+    padding: 5%;
+}
+
+@media screen and (max-width:1028px)
+{
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background: url("drum.png") no-repeat;
+        background-size: 100%;
+        background-position-x: 50%;
+        background-position-y: -39%;
+    }
+    
+
+    .btn {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        padding: 4.5%;
+        border-radius: 100%
+    }
+
+    .btn1 {
+        left: 13%;
+        top: 33%;
+        padding: 5%;
+    }
+
+    .btn2 {
+        left: 11%;
+        top: 54%;
+    }
+
+    .btn3 {
+        left: 27%;
+        top: 57%;
+    }
+
+    .btn4 {
+        left: 32%;
+        top: 44%;
+        padding: 3%;
+    }
+
+    .btn5 {
+        left: 45%;
+        top: 58%;
+        border-radius: 0;
+        padding: 0.7%;
+    }
+
+    .btn6 {
+        left: 56%;
+        top: 57%;
+    }
+
+    .btn7 {
+        left: 73%;
+        top: 47%;
+        padding: 5%;
+    }
+
+    .btn8 {
+        left: 59%;
+        top: 35%;
+        padding: 5%;
+
+}
